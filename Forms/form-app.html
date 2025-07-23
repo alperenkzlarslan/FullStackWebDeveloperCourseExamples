@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz !</h1>
+    <hr />
+
+    <h2>Hesap Bilgileriniz</h2>
+    <table style="text-align: left">
+      <tr>
+        <th><label for="username">Kullanıcı Adı :</label></th>
+        <th><input type="text" id="username" /></th>
+      </tr>
+      <tr>
+        <th><label for="eposta">Eposta :</label></th>
+        <th><input type="email" id="eposta" /></th>
+      </tr>
+      <tr>
+        <th><label for="upassword">Parola :</label></th>
+        <th><input type="password" id="upassword" /></th>
+      </tr>
+    </table>
+
+    <h2>Kişisel Bilgileriniz</h2>
+
+    <table style="text-align: left">
+      <tr>
+        <th><label for="name">Adınız :</label></th>
+        <th><input type="text" id="name" /></th>
+      </tr>
+      <tr>
+        <th><label for="surname">Soyadınız :</label></th>
+        <th><input type="text" id="surname" /></th>
+      </tr>
+      <tr>
+        <th><label for="city">Şehir :</label></th>
+        <th>
+          <select id="city" name="city">
+            <option value="istanbul">İstanbul</option>
+            <option value="konya">Konya</option>
+            <option value="kocaeli">Kocaeli</option>
+            <option value="izmir">İzmir</option>
+            <option value="elazig">Elazığ</option>
+          </select>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <label for="gender_option">Cinsiyet :</label>
+        </th>
+        <th>
+          <input type="radio" id="gender" name="gender" />
+          <label for="male" name="gender">Erkek</label>
+
+          <input type="radio" id="gender" name="gender" />
+          <label for="female">Kadın</label>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <label for="hobbies">Hobileriniz :</label>
+        </th>
+        <th>
+          <input type="checkbox" id="cinema" />Sinema
+          <input type="checkbox" id="book" />Kitap
+          <input type="checkbox" id="bicycle" />Bisiklet
+          <input type="checkbox" id="spor" />Spor
+        </th>
+      </tr>
+      <tr>
+        <th colspan="2">
+          <input type="submit" value="Kaydet" class="submit" />
+        </th>
+      </tr>
+    </table>
+  </body>
+</html>
